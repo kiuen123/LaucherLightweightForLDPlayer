@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/grid_columns_label" android:textSize="16sp" />
+    <TextView android:id="@+id/columnsValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+    <com.google.android.material.slider.Slider android:id="@+id/columnsSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="2" android:valueTo="8" android:stepSize="1" />
+</LinearLayout>

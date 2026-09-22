@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/folder_grid_columns_label" android:textSize="16sp" />
+    <TextView android:id="@+id/folderColumnsValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+    <com.google.android.material.slider.Slider android:id="@+id/folderColumnsSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="2" android:valueTo="8" android:stepSize="1" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/folder_icon_size_label" android:textSize="16sp" />
+    <TextView android:id="@+id/folderIconSizeValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+    <com.google.android.material.slider.Slider android:id="@+id/folderIconSizeSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="9" android:stepSize="1" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/folder_label_text_size_label" android:textSize="16sp" />
+    <TextView android:id="@+id/folderLabelTextSizeValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+    <com.google.android.material.slider.Slider android:id="@+id/folderLabelTextSizeSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="10" android:valueTo="20" android:stepSize="1" />
+</LinearLayout>

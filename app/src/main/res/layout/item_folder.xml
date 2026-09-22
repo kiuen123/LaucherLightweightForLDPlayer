@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="top|center_horizontal"
+    android:padding="8dp">
+
+    <!-- Folder visual representation -->
+    <FrameLayout
+        android:id="@+id/folderIconContainer"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/bg_folder_icon"
+        android:padding="4dp">
+        <GridLayout
+            android:id="@+id/folderIconGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:useDefaultMargins="false"
+            android:alignmentMode="alignBounds"
+            android:columnOrderPreserved="false">
+            <!-- Icons will be added dynamically here -->
+        </GridLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/folderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:breakStrategy="balanced"
+        android:hyphenationFrequency="normal" />
+
+</LinearLayout>

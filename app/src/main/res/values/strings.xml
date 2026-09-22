@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LaucherLightweight</string>
+    <string name="grid_settings_title">Lưới launcher</string>
+    <string name="grid_columns_label">Số cột</string>
+    <string name="icon_size_label">Kích thước icon (dp)</string>
+    <string name="icon_size_value">%1$d dp</string>
+    <string name="label_text_size_label">Kích thước tên</string>
+    <string name="label_text_size_value">%1$d sp</string>
+    <string name="settings_home_tab">Màn hình chính</string>
+    <string name="settings_folder_tab">Thư mục</string>
+    <string name="folder_grid_columns_label">Số cột trong thư mục</string>
+    <string name="folder_icon_size_label">Kích thước icon trong thư mục</string>
+    <string name="folder_label_text_size_label">Kích thước tên trong thư mục</string>
+    <string name="settings">Cài đặt</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="set_as_default_launcher">Đặt làm launcher mặc định</string>
+    <string name="already_default_launcher">Ứng dụng này đang là launcher mặc định</string>
+    <string name="select_wallpaper">Chọn ảnh nền</string>
+    <string name="clear_wallpaper">Bỏ ảnh nền</string>
+    <string name="wallpaper_selection_failed">Không thể sử dụng ảnh đã chọn</string>
+</resources>
